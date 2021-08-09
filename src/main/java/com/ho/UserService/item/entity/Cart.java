@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Data
-public class Cart {
+public final class Cart {
     private @Id String id;
     private List<CartItem> cartItems;
 

@@ -3,7 +3,7 @@ package com.ho.UserService.item.entity;
 import lombok.Data;
 
 @Data
-public class CartItem {
+public final class CartItem {
     private Item item;
     private int quantity;
 

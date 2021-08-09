@@ -8,7 +8,7 @@ package com.ho.UserService.dish;
  * 서빙 점원의 역할은 웹 컨트롤이다.
  * */
 
-public class PoliteRestaurant {
+public final class PoliteRestaurant {
 
     public static void main(String... args) {
         PoliteServer server = new PoliteServer(new KitchenService());

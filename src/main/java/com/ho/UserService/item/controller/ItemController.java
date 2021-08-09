@@ -12,7 +12,7 @@ import org.springframework.web.reactive.result.view.Rendering;
 import reactor.core.publisher.Mono;
 
 @RestController
-public class ItemController {
+public final class ItemController {
     ItemRepository itemRepository;
     CartRepository cartRepository;
 

@@ -3,7 +3,7 @@ package com.ho.UserService.dish;
 import lombok.Data;
 
 @Data
-public class Dish {
+public final class Dish {
     private  String description;
     private boolean delivered = false;
 

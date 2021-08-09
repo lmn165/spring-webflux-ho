@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
 @Service
-public class CartService {
+public final class CartService {
 //    private final ItemRepository itemRepository;
 //    private final CartRepository cartRepository;
 //

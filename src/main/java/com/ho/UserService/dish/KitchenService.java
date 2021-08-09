@@ -8,7 +8,7 @@ import reactor.core.publisher.Flux;
  * just() 를 통해 비동기적으로 제공한다. (만들자마자...)
  *
  **/
-public class KitchenService {
+public final class KitchenService {
     Flux<Dish> getDishes() {
         return Flux.just(
                 new Dish("Sesame chicken"),

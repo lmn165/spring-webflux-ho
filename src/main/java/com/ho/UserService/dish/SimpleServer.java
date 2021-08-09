@@ -4,7 +4,7 @@ import lombok.RequiredArgsConstructor;
 import reactor.core.publisher.Flux;
 
 @RequiredArgsConstructor
-public class SimpleServer {
+public final class SimpleServer {
     private final KitchenService kitchen;
 //    SimpleServer(KitchenService kitchen){
 //        this.kitchen = kitchen;

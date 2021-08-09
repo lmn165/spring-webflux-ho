@@ -10,7 +10,7 @@ import reactor.core.publisher.Flux;
  * Reactive Consumer 는 다른 Reactive Service 를 호출하고 결과를 반환(transform) 한다.
  * */
 @RequiredArgsConstructor
-public class PoliteServer {
+public final class PoliteServer {
 
     private final KitchenService kitchen;
 
